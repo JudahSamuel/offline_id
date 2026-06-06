@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F7FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supra Highway"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#0F2042" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Field Engineer:"
+        android:layout_marginTop="20dp"
+        android:textColor="#888888" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judah Samuel"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#0F2042" />
+
+    <TextView
+        android:id="@+id/tvEngineStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⚙️ AI Engine Online (Native Prototype)"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today's Shift"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvShiftStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PENDING"
+            android:textColor="#FF9800"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/btnScan"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Initiate Secure Scan"
+            android:backgroundTint="#0056D2"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Local Encrypted Logs"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#888888" />
+
+    <TextView
+        android:id="@+id/tvLogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✅ Jun 02, 08:45 AM - NHAI Stretch 42\n✅ Yesterday, 08:30 AM - NHAI Stretch 42"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp" />
+</LinearLayout>
